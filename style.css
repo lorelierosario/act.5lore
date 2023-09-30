@@ -1,0 +1,75 @@
+styles.css
+
+-body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+#form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-image:url(l.jfif);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+input[type="text"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #e1d2ee;
+}
+
+
+#postButton {
+    background-color: #f1c1c1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#getButton {
+    background-color: #f7c9c9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#putButton {
+    background-color: #f1cdcd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#results {
+    margin-top: 20px;
+}
+
+
+#results p {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}                              
